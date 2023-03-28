@@ -6,3 +6,219 @@ Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
 Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
 3/28/2023-7:37:54 PM (BUENO\jordanbueno) | 
 Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:46:45 PM (BUENO\jordanbueno) | 
+Invoking Import-MDTOperatingSystem on item Operating Systems for source E:\
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Home in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {70abfd4c-0101-4041-86d4-ec884c623375}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Home N in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home N in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Home Single Language in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home Single Language in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Education in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Education N in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education N in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{990e9927-297f-4e1d-8910-15609b7bf840}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro N in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{990e9927-297f-4e1d-8910-15609b7bf840}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro Education in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{990e9927-297f-4e1d-8910-15609b7bf840}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro Education N in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{990e9927-297f-4e1d-8910-15609b7bf840}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education N in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro for Workstations in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro for Workstations in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+New Item Operating Systems\Windows 11 Pro N for Workstations in Windows 11 (22H2) install.wim created.
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:01 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N for Workstations in Windows 11 (22H2) install.wim added to Group Operating Systems
+3/28/2023-7:47:26 PM (BUENO\jordanbueno) | 
+New Group Windows 11 (22H2) created.
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Education in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education N in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Education N in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Home in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home N in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Home N in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home Single Language in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Home Single Language in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro Education in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education N in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro Education N in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro for Workstations in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro for Workstations in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N for Workstations in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro N for Workstations in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems\Windows 11 (22H2) to {953c8e68-8903-4a9f-a6f0-5c296415b577}:{9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N in Windows 11 (22H2) install.wim added to Group Operating Systems\Windows 11 (22H2)
+3/28/2023-7:47:34 PM (BUENO\jordanbueno) | 
+Linked Item Windows 11 Pro N in Windows 11 (22H2) install.wim to DS001:\Operating Systems\Windows 11 (22H2)
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {9fed6eae-c7d6-40af-932e-618fd3910f2e}:{70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {70abfd4c-0101-4041-86d4-ec884c623375}:{1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Item Windows 11 Education N in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {1c7d4143-35cb-4480-92b9-648a70cd6eb0}:{a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:13 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {a9ad7088-315e-4710-af57-639bc069ddc3}:{2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home N in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {2e95b4ce-d602-4652-98e8-7dcdda7eb370}:{1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Home Single Language in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {1db510a5-e1c2-4743-b9dd-13add4ea3692}:{dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {dab446cd-3c38-43a4-831a-f6b6f8a247c9}:{990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro Education N in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {990e9927-297f-4e1d-8910-15609b7bf840}:{12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro for Workstations in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {12585f22-1868-4fc4-ab7f-a7f4c3011de7}:{60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to {60532fac-7982-4656-ab36-7ca21f381511}
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N for Workstations in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Operating Systems to 
+3/28/2023-7:48:14 PM (BUENO\jordanbueno) | 
+Item Windows 11 Pro N in Windows 11 (22H2) install.wim removed from Group Operating Systems
+3/28/2023-7:49:53 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:52:51 PM (BUENO\jordanbueno) | 
+Invoking Import-MDTTaskSequence on item Task Sequences for template Client.xml
+3/28/2023-7:52:51 PM (BUENO\jordanbueno) | 
+New Item Task Sequences\Windows 11 (22H2) - MUI created.
+3/28/2023-7:52:51 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Task Sequences to {327ebe7b-981d-4c38-bf8a-31fb36de03ee}
+3/28/2023-7:52:51 PM (BUENO\jordanbueno) | 
+Item Windows 11 (22H2) - MUI added to Group Task Sequences
+3/28/2023-7:55:07 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:55:07 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:55:10 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:55:10 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:56:06 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:56:06 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:56:12 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:56:12 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:59:21 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:59:22 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:59:23 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-7:59:23 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/28/2023-8:07:18 PM (BUENO\jordanbueno) | 
+Update-MDTDeploymentShare is being invoked for item DS001:\

@@ -4,7 +4,7 @@
   <Comments>
   </Comments>
   <EnableMulticast>False</EnableMulticast>
-  <SupportX86>True</SupportX86>
+  <SupportX86>False</SupportX86>
   <SupportX64>True</SupportX64>
   <UNCPath>\\WDS002-BUENO\Deploy$</UNCPath>
   <PhysicalPath>C:\MDT-Windows11-Deployment</PhysicalPath>
@@ -39,8 +39,8 @@
   <Boot.x64.IncludeNetworkDrivers>True</Boot.x64.IncludeNetworkDrivers>
   <Boot.x64.IncludeMassStorageDrivers>True</Boot.x64.IncludeMassStorageDrivers>
   <Boot.x64.IncludeVideoDrivers>False</Boot.x64.IncludeVideoDrivers>
-  <Boot.x64.IncludeSystemDrivers>False</Boot.x64.IncludeSystemDrivers>
-  <Boot.x64.BackgroundFile>%INSTALLDIR%\Samples\Background.bmp</Boot.x64.BackgroundFile>
+  <Boot.x64.IncludeSystemDrivers>True</Boot.x64.IncludeSystemDrivers>
+  <Boot.x64.BackgroundFile>C:\MDT-Windows11-Deployment\Resources\custom-background-bmp.bmp</Boot.x64.BackgroundFile>
   <Boot.x64.ExtraDirectory>
   </Boot.x64.ExtraDirectory>
   <Boot.x64.GenerateGenericWIM>False</Boot.x64.GenerateGenericWIM>
@@ -52,7 +52,7 @@
   <Boot.x64.LiteTouchISOName>LiteTouchPE_x64.iso</Boot.x64.LiteTouchISOName>
   <Boot.x64.SelectionProfile>All Drivers and Packages</Boot.x64.SelectionProfile>
   <Boot.x64.SupportUEFI>True</Boot.x64.SupportUEFI>
-  <Boot.x64.FeaturePacks>winpe-mdac</Boot.x64.FeaturePacks>
+  <Boot.x64.FeaturePacks>winpe-dismcmdlets,winpe-mdac,winpe-powershell,winpe-securebootcmdlets,winpe-storagewmi</Boot.x64.FeaturePacks>
   <Database.SQLServer>
   </Database.SQLServer>
   <Database.Instance>
