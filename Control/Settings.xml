@@ -8,8 +8,7 @@
   <SupportX64>True</SupportX64>
   <UNCPath>\\WDS002-BUENO\Deploy$</UNCPath>
   <PhysicalPath>C:\MDT-Windows11-Deployment</PhysicalPath>
-  <MonitorHost>
-  </MonitorHost>
+  <MonitorHost>wds002-bueno</MonitorHost>
   <MonitorEventPort>9800</MonitorEventPort>
   <MonitorDataPort>9801</MonitorDataPort>
   <SkipWimSplit>True</SkipWimSplit>
