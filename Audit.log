@@ -1738,3 +1738,29 @@ Item Intel Corporation SCSIAdapter iaStorVD.inf 18.2.0.1006 added to Group Out-o
 Update-MDTDeploymentShare is being invoked for item DS001:\
 3/28/2023-9:38:42 PM (BUENO\jordanbueno) | 
 Update-MDTDeploymentShare is being invoked for item DS001:\
+3/29/2023-1:25:45 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:25:45 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:25:46 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:25:46 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:26:49 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:26:58 AM (BUENO\jordanbueno) | 
+New Item Selection Profiles\HP Zbook Studo G8 (W11 - 22H2) created.
+3/29/2023-1:26:58 AM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Selection Profiles to {f8ab0b9d-9bab-4b7c-983f-4ca2c471716c}:{4fedadad-4037-4571-b5d4-5fe2c44b3a4f}:{88e2de35-1871-488c-ba98-634fdaef0583}:{c6e16269-cf47-4897-a82d-490634910436}:{4e826c50-776a-45dc-a61f-a18ee847d6cf}:{f3bf1705-90d3-40f1-bc16-44f2861b6336}:{b06fb6fd-d863-4ca7-8d3b-0d9939af643c}
+3/29/2023-1:26:58 AM (BUENO\jordanbueno) | 
+Item HP Zbook Studo G8 (W11 - 22H2) added to Group Selection Profiles
+3/29/2023-1:27:14 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/29/2023-1:27:50 AM (BUENO\jordanbueno) | 
+Set Property 'Comments' for Windows 11 (22H2) - MUI set to Multi-user deployment of Windows 11 build 22H2.
+3/29/2023-1:27:50 AM (BUENO\jordanbueno) | 
+Set Property 'hide' for Windows 11 (22H2) - MUI set to False
+3/29/2023-1:27:50 AM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'SupportedPlatform' for Windows 11 (22H2) - MUI to 
+3/29/2023-1:28:05 AM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'SupportedPlatform' for Windows 11 (22H2) - MUI to 
