@@ -2,3 +2,8 @@ winget install --accept-source-agreements --accept-package-agreements Google.Chr
 winget install --accept-source-agreements --accept-package-agreements Valve.Steam
 winget install --accept-source-agreements --accept-package-agreements LGHub
 winget install --accept-source-agreements --accept-package-agreements WinDirStat
+winget install --accept-source-agreements --accept-package-agreements GitHub.Atom
+winget install --accept-source-agreements --accept-package-agreements GitHub.GitHubDesktop
+winget install --accept-source-agreements --accept-package-agreements 7zip.7zip
+winget install --accept-source-agreements --accept-package-agreements Microsoft.VisualStudioCode
+winget install --accept-source-agreements --accept-package-agreements Eugeny.Tabby
