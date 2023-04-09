@@ -216,13 +216,13 @@
           <variable name="OSDPartitions0Size" property="Partitions0Size">499</variable>
           <variable name="OSDPartitions0SizeUnits" property="Partitions0SizeUnits">MB</variable>
           <variable name="OSDPartitions0VolumeLetterVariable" property="Partitions0VolumeLetterVariable"></variable>
-          <variable name="OSDPartitions1VolumeName" property="Partitions1VolumeName">Windows</variable>
           <variable name="OSDPartitions1Type" property="Partitions1Type">Primary</variable>
           <variable name="OSDPartitions1FileSystem" property="Partitions1FileSystem">NTFS</variable>
-          <variable name="OSDPartitions1Size" property="Partitions1Size">99</variable>
-          <variable name="OSDPartitions1SizeUnits" property="Partitions1SizeUnits">%</variable>
           <variable name="OSDPartitions1Bootable" property="Partitions1Bootable">False</variable>
           <variable name="OSDPartitions1QuickFormat" property="Partitions1QuickFormat">True</variable>
+          <variable name="OSDPartitions1VolumeName" property="Partitions1VolumeName">Windows</variable>
+          <variable name="OSDPartitions1Size" property="Partitions1Size">99</variable>
+          <variable name="OSDPartitions1SizeUnits" property="Partitions1SizeUnits">%</variable>
           <variable name="OSDPartitions1VolumeLetterVariable" property="Partitions1VolumeLetterVariable">Local Disk</variable>
           <variable name="OSDPartitions2Type" property="Partitions2Type">Recovery</variable>
           <variable name="OSDPartitions2FileSystem" property="Partitions2FileSystem">NTFS</variable>
@@ -265,13 +265,13 @@
           <variable name="OSDPartitions1Size" property="Partitions1Size">128</variable>
           <variable name="OSDPartitions1SizeUnits" property="Partitions1SizeUnits">MB</variable>
           <variable name="OSDPartitions1VolumeLetterVariable" property="Partitions1VolumeLetterVariable"></variable>
-          <variable name="OSDPartitions2VolumeName" property="Partitions2VolumeName">Windows</variable>
           <variable name="OSDPartitions2Type" property="Partitions2Type">Primary</variable>
           <variable name="OSDPartitions2FileSystem" property="Partitions2FileSystem">NTFS</variable>
-          <variable name="OSDPartitions2Size" property="Partitions2Size">99</variable>
-          <variable name="OSDPartitions2SizeUnits" property="Partitions2SizeUnits">%</variable>
           <variable name="OSDPartitions2Bootable" property="Partitions2Bootable">False</variable>
           <variable name="OSDPartitions2QuickFormat" property="Partitions2QuickFormat">True</variable>
+          <variable name="OSDPartitions2VolumeName" property="Partitions2VolumeName">Windows</variable>
+          <variable name="OSDPartitions2Size" property="Partitions2Size">99</variable>
+          <variable name="OSDPartitions2SizeUnits" property="Partitions2SizeUnits">%</variable>
           <variable name="OSDPartitions2VolumeLetterVariable" property="Partitions2VolumeLetterVariable">Local Disk</variable>
           <variable name="OSDPartitions3Type" property="Partitions3Type">Recovery</variable>
           <variable name="OSDPartitions3FileSystem" property="Partitions3FileSystem">NTFS</variable>
@@ -359,12 +359,25 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <step type="BDD_InjectDrivers" name="Injecting Drivers..." description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+    <step type="BDD_InjectDrivers" name="Injecting Drivers..." description="" disable="true" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
       <defaultVarList>
         <variable name="DriverSelectionProfile" property="DriverSelectionProfile">All Drivers</variable>
         <variable name="DriverInjectionMode" property="DriverInjectionMode">AUTO</variable>
       </defaultVarList>
       <action>cscript.exe "%SCRIPTROOT%\ZTIDrivers.wsf"</action>
+    </step>
+    <step type="BDD_InjectDrivers" name="Inject HP ZBook Studio 15.6 inch G8 Mobile Workstation PC drivers..." description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="DriverSelectionProfile" property="DriverSelectionProfile">HP Zbook Studo G8 (W11 - 22H2)</variable>
+        <variable name="DriverInjectionMode" property="DriverInjectionMode">ALL</variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIDrivers.wsf"</action>
+      <condition>
+        <expression type="SMS_TaskSequence_WMIConditionExpression">
+          <variable name="Namespace">root\cimv2</variable>
+          <variable name="Query">SELECT * FROM Win32_ComputerSystem WHERE Model LIKE "%HP ZBook Studio 15.6 inch G8 Mobile Workstation PC%"</variable>
+        </expression>
+      </condition>
     </step>
     <step type="BDD_InstallUpdatesOffline" name="Apply Patches" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIPatches.wsf"</action>
@@ -528,7 +541,7 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <step name="Windows Update (Pre-Application Installation)" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step name="Windows Update (Pre-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
       <defaultVarList>
         <variable name="RunAsUser" property="RunAsUser">false</variable>
@@ -537,12 +550,133 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <step type="BDD_InstallApplication" name="Install Applications" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
+    <step type="BDD_InstallApplication" name="Install Applications" disable="true" continueOnError="false" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       <defaultVarList>
         <variable name="ApplicationGUID" property="ApplicationGUID"></variable>
         <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
       </defaultVarList>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Set Execution Policy" description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\SetExecutionPolicyBypass.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID"></variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Dependencies..." description="- Installs Winget" disable="true" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGetInstall.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID"></variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="SMS_TaskSequence_RunCommandLineAction" name="Installing Dependencies..." description="Installs WinGet" disable="false" continueOnError="false" startIn="" successCodeList="0 3010" runIn="WinPEandFullOS">
+      <defaultVarList>
+        <variable name="PackageID" property="PackageID"></variable>
+        <variable name="RunAsUser" property="RunAsUser">false</variable>
+        <variable name="SMSTSRunCommandLineUserName" property="SMSTSRunCommandLineUserName"></variable>
+        <variable name="SMSTSRunCommandLineUserPassword" property="SMSTSRunCommandLineUserPassword"></variable>
+        <variable name="LoadProfile" property="LoadProfile">false</variable>
+      </defaultVarList>
+      <action>powershell.exe -executionpolicy bypass -file "%deployRoot%\Custom Scripts\WinGetInstall.ps1"</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Microsoft Office 365..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\InstallOffice365.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID"></variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Google Chrome..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\Chrome.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID"></variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing 7-zip..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\7zip.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Atom..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\Atom.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing GitHub Desktop..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\GitHubDesktop.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing LG Hub..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\LGHub.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Steam..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\Steam.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing Tabby..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\Tabby.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing VS Code..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\VSCode.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Installing WinDirStat..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot%\Custom Scripts\WinGet\WinDirStat.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID" />
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
+    </step>
+    <step type="BDD_InstallApplication" name="Installing LAPS..." description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ApplicationGUID" property="ApplicationGUID">{f507d310-5ae3-42eb-9f94-054f37315014}</variable>
+        <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+    </step>
+    <step type="BDD_RunPowerShellAction" name="Removing Unwanted Microsoft Store Apps..." description="" disable="false" continueOnError="false" successCodeList="0 3010">
+      <defaultVarList>
+        <variable name="ScriptName" property="ScriptName">%deployRoot\Custom Scripts\RemoveApps\RemoveApps.ps1</variable>
+        <variable name="Parameters" property="Parameters"></variable>
+        <variable name="PackageID" property="PackageID"></variable>
+      </defaultVarList>
+      <action>cscript.exe "%SCRIPTROOT%\ZTIPowerShell.wsf</action>
     </step>
     <step name="Windows Update (Post-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
@@ -554,7 +688,7 @@
       </defaultVarList>
     </step>
     <group name="Custom Tasks" disable="false" continueOnError="false" expand="true" description=""></group>
-    <step type="SMS_TaskSequence_EnableBitLockerAction" name="Enable BitLocker" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step type="SMS_TaskSequence_EnableBitLockerAction" name="Enabling BitLocker.." continueOnError="true" successCodeList="0 3010" description="" startIn="" disable="false">
       <action>cscript.exe "%SCRIPTROOT%\ZTIBde.wsf"</action>
       <condition>
         <expression type="SMS_TaskSequence_VariableConditionExpression">

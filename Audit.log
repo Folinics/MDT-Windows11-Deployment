@@ -1764,3 +1764,49 @@ Set Property 'hide' for Windows 11 (22H2) - MUI set to False
 Setting Multivalued Property 'SupportedPlatform' for Windows 11 (22H2) - MUI to 
 3/29/2023-1:28:05 AM (BUENO\jordanbueno) | 
 Setting Multivalued Property 'SupportedPlatform' for Windows 11 (22H2) - MUI to 
+3/30/2023-3:27:24 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/30/2023-3:27:24 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/30/2023-3:27:24 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/30/2023-3:27:24 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/30/2023-10:30:22 PM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/30/2023-10:31:03 PM (BUENO\jordanbueno) | 
+Invoking Import-MDTApplication on item Applications for application Local Administrator Password Solution
+3/30/2023-10:31:03 PM (BUENO\jordanbueno) | 
+New Item Applications\Local Administrator Password Solution created.
+3/30/2023-10:31:03 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'Member' for DS001:\Applications to {f507d310-5ae3-42eb-9f94-054f37315014}
+3/30/2023-10:31:03 PM (BUENO\jordanbueno) | 
+Item Local Administrator Password Solution added to Group Applications
+3/30/2023-10:33:15 PM (BUENO\jordanbueno) | 
+Set Property 'CommandLine' for Local Administrator Password Solution set to MsiExec.exe /i LAPS.x64.msi ALLUSERS=1 /qn /L*v "%WINDIR%\Temp\LAPSx64-Install.log"
+3/30/2023-10:33:15 PM (BUENO\jordanbueno) | 
+Set Property 'WorkingDirectory' for Local Administrator Password Solution set to .\Applications\
+3/30/2023-10:33:15 PM (BUENO\jordanbueno) | 
+Set Property 'Reboot' for Local Administrator Password Solution set to False
+3/30/2023-10:33:15 PM (BUENO\jordanbueno) | 
+Setting Multivalued Property 'SupportedPlatform' for Local Administrator Password Solution to 
+3/30/2023-10:35:49 PM (BUENO\jordanbueno) | 
+Update-MDTDeploymentShare is being invoked for item DS001:\
+3/31/2023-12:26:48 AM (BUENO\jordanbueno) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/31/2023-3:37:05 PM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/31/2023-3:37:05 PM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/31/2023-3:37:06 PM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+3/31/2023-3:37:06 PM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+4/7/2023-3:43:32 AM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+4/7/2023-3:43:32 AM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+4/7/2023-3:43:32 AM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened
+4/7/2023-3:43:32 AM (BUENO\jordan) | 
+Deployment share at 'C:\MDT-Windows11-Deployment' has been opened

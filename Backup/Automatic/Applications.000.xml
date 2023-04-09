@@ -1,1 +1,19 @@
-<applications />
+<applications>
+  <application guid="{f507d310-5ae3-42eb-9f94-054f37315014}" enable="True">
+    <Name>Local Administrator Password Solution</Name>
+    <CreatedTime>3/30/2023 10:31:03 PM</CreatedTime>
+    <CreatedBy>BUENO\jordanbueno</CreatedBy>
+    <LastModifiedTime>3/30/2023 10:31:03 PM</LastModifiedTime>
+    <LastModifiedBy>BUENO\jordanbueno</LastModifiedBy>
+    <ShortName>Local Administrator Password Solution</ShortName>
+    <Version>
+    </Version>
+    <Publisher>
+    </Publisher>
+    <Language>
+    </Language>
+    <CommandLine>LAPSx64.msi</CommandLine>
+    <WorkingDirectory>
+    </WorkingDirectory>
+  </application>
+</applications>

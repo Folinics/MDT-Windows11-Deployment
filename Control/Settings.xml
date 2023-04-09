@@ -51,7 +51,7 @@
   <Boot.x64.LiteTouchISOName>LiteTouchPE_x64.iso</Boot.x64.LiteTouchISOName>
   <Boot.x64.SelectionProfile>All Drivers and Packages</Boot.x64.SelectionProfile>
   <Boot.x64.SupportUEFI>True</Boot.x64.SupportUEFI>
-  <Boot.x64.FeaturePacks>winpe-dismcmdlets,winpe-mdac,winpe-powershell,winpe-securebootcmdlets,winpe-storagewmi</Boot.x64.FeaturePacks>
+  <Boot.x64.FeaturePacks>winpe-dismcmdlets,winpe-enhancedstorage,winpe-mdac,winpe-powershell,winpe-securebootcmdlets,winpe-storagewmi</Boot.x64.FeaturePacks>
   <Database.SQLServer>
   </Database.SQLServer>
   <Database.Instance>
